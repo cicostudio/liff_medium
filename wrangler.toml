@@ -9,7 +9,7 @@ LINE_TAG_ID = "da896487-a669-425e-be02-3dc3afbd3638"
 LINE_CHANNEL_ID = "2001467446"      # 發出 LIFF userId 的 LINE Login channel（LIFF ID 前段）
 BOOKING_VALUE = "1999"
 CURRENCY = "TWD"
-EVENT_SOURCE_URL = "https://start-landing.nameless-wood-bba1.workers.dev/"
+EVENT_SOURCE_URL = "https://cico.tw/one/"
 META_API_VERSION = "v21.0"
 # META_TEST_EVENT_CODE = "TEST12345"  # 測試時填 Events Manager 的測試代碼，正式上線刪掉
 
