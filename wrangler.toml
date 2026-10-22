@@ -1,0 +1,19 @@
+name = "liff-medium"
+main = "src/index.js"
+compatibility_date = "2025-06-01"
+
+# 公開設定（非機密）
+[vars]
+META_PIXEL_ID = "800186701890749"
+LINE_TAG_ID = "da896487-a669-425e-be02-3dc3afbd3638"
+LINE_CHANNEL_ID = "2001467446"      # 發出 LIFF userId 的 LINE Login channel（LIFF ID 前段）
+BOOKING_VALUE = "1999"
+CURRENCY = "TWD"
+EVENT_SOURCE_URL = "https://start-landing.nameless-wood-bba1.workers.dev/"
+META_API_VERSION = "v21.0"
+# META_TEST_EVENT_CODE = "TEST12345"  # 測試時填 Events Manager 的測試代碼，正式上線刪掉
+
+# 機密請用 Cloudflare 後台（Settings → Variables and Secrets）或 `wrangler secret put` 設定：
+#   WEBHOOK_KEY            Fillout Webhook 網址上的驗證碼（自己訂一組長亂碼）
+#   META_CAPI_TOKEN        Meta Events Manager → 設定 → Conversions API 產生的 Access Token
+#   LINE_TAG_ACCESS_TOKEN  LINE 廣告後台（Business Manager）發出的 Conversion API Access Token
